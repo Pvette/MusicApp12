@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp12.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This activity will play my of music choice"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/library"
+        android:layout_marginLeft="125dp"
+        android:textSize="20sp"
+        android:text="Library" />
+
+    <ImageView
+        android:layout_width="368dp"
+        android:layout_height="280dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_weight="1.02"
+        android:scaleType="centerCrop"
+        android:src="@drawable/record" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button_Play"
+            android:layout_alignStart="@+id/button_Play"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:text="Pause" />
+
+
+        <Button
+            android:id="@+id/button_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="55dp"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/button_Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="55dp"
+            android:text="Stop" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MusicApp12</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+
+    <!-- Category name for albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for artists [CHAR LIMIT=20] -->
+    <string name="category_jazz">Jazz</string>
+
+    <!-- Category name for the vocabulary words for genres [CHAR LIMIT=20] -->
+    <string name="category_pop">Pop</string>
+    <!-- Category name for the vocabulary words for genres [CHAR LIMIT=20] -->
+    <string name="category_rock">Rock</string>
+
+    <!-- Category name for the vocabulary words for library [CHAR LIMIT=20] -->
+    <string name="category_library">Library</string>
+
+    <!-- Category name for the vocabulary words for player [CHAR LIMIT=20] -->
+    <string name="category_player">Player</string>
+    <!-- Category name for the vocabulary words for player [CHAR LIMIT=20] -->
+    <string name="category_play">Play</string>
+
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_stop">Stop</string>
+    <string name="stop">Stop</string>
+    <string name="button_library">Library</string>
+</resources>
